@@ -1,0 +1,132 @@
+/* CSS-file */
+body {
+	background-image: URL("stars.jpg");
+}
+* {
+	font-family: Arial;
+} /* Универсальный селектор */
+.text-head {
+	color: #FF0099;
+	text-align: center;
+	font-weight: bold;
+}
+.top {
+	width: 10%;
+	vertical-align: top;
+}
+.content {
+	text-align: left;
+	color: #FF0099;
+	font-weight:  bold;
+}
+.tables {
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+.tables-1 {
+	width: 100%;
+	border: 1px solid;
+	border-color: #6699CC;
+	background-color: #FAFFFA;
+}
+.tables-top {
+	text-align: center;
+	font-weight: bold;
+	border: 1px solid;
+	border-color: #6699CC;
+	background-color: #FFEEEE;
+}	
+.tables-in {
+	text-align: center;
+	border: 1px solid;
+	border-color: #6699CC;
+	text-align: left;
+}
+.lines {
+	background-image: URL('lines.gif');
+	background-repeat: repeat-y;
+	padding-left: 20px;
+	vertical-align: top;
+}
+.text {
+	text-align: justify;
+}
+.left {
+	text-align: left ;
+}
+#left-id {
+	text-align: left;
+} /* Селектор идентификаторов */
+.right {
+	text-align: right;
+}
+.center {
+	text-align: center;
+}
+p {
+	color: #336699;
+} /* Селектор тегов */
+p.sel::first-letter {
+	font-size: xx-large;
+	font-weight: bold;
+} /* ::first-letter - Селектор псевдоэлементов */
+a:hover {
+	background: #fc0;
+} /* Селектор псевдоклассов */
+a {
+    color: #AA00DD;
+    text-decoration: none;
+    text-align: left;
+}
+span[lang] {
+    font-weight: bold;
+} /* Селектор атрибутов */
+span.size {
+	font-size: 20px;
+}
+span {
+    color: #336699;
+}
+div span {
+    color:  #FF0099;
+/*  color : red;*/
+} /* Селектор потомков */
+i > b{
+    color: #336699;
+    color: red;*/
+} /* Селектор дочерних элементов*/ 
+.pic1 {
+	width: 257px;
+	height: 386px;
+	float: left;
+	margin: 20px;
+}
+.pic2 {
+	width: 250px;
+	height: 245px;
+	float: right;
+	margin: 20px;
+	background-image: URL("pic2.jpg");
+}
+.pic3 {
+	width: 250x;
+	height: 282px;
+	float: left;
+	margin: 20px;
+	background-image: URL("pic3.jpg");
+}
+.pic4 {
+	width: 250px;
+	height: 257px;
+	float: right;
+	margin: 20px;
+	background-image: URL("pic4.jpg");
+}
+.pic5 {
+	width: 200px;
+	height: 242px;
+	float: left;
+	margin: 20px;
+	background-image: URL("pic5.jpg");
+}

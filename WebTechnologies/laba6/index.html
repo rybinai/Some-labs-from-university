@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Тестирование </title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+<body>
+	<form id="form">
+		<h1> Тестирование </h1>
+		
+		<!-- Выбор одного варианта -->
+		<div class="question-block">
+			<h2> 1. Что означает аббревиатура HTML? </h2>
+			<ul class="list-answer">
+				<li><label><input type="radio" name="q1" value="HyperTrainerMarkingLanguage" > Hyper Trainer Marking Language </label></li>
+				<li><label><input type="radio" name="q1" value="HyperTextMarkupLanguage" > Hyper Text Markup Language </label></li>
+				<li><label><input type="radio" name="q1" value="HyperlinksandTextMarkup Language " > Hyperlinks and Text Markup Language </label></li>
+			</ul>
+		</div>
+
+		<div class="question-block">
+			<h2> Как задать заголовок второго уровня в HTML? </h2>
+			<ul class="list-answer">
+				<li><label><input type="radio" name="q2" value="title" > title </label></li>
+				<li><label><input type="radio" name="q2" value="h2" > h2 </label></li>
+				<li><label><input type="radio" name="q2" value="header" > header</label></li>
+			</ul>
+		</div>
+
+		<!-- Множественный выбор варианта -->
+		<div class="question-block">
+			<h2> 3. Какие из перечисленных элементов являются блочными в HTML? </h2>
+			<ul class="list-answer">
+				<li><label><input type="checkbox" name="q3" value="div"> div </label><li>
+				<li><label><input type="checkbox" name="q3" value="span"> span </label><li>
+				<li><label><input type="checkbox" name="q3" value="ul"> ul </label><li>	
+			</ul>
+		</div>
+
+		<div class="question-block">
+			<h2> 4. Какие атрибуты являются обязательными для тега img в HTML? </h2>
+			<ul class="list-answer">
+				<li><label><input type="checkbox" name="q4" value="src"> src </label><li>
+				<li><label><input type="checkbox" name="q4" value="alt"> alt </label><li>
+				<li><label><input type="checkbox" name="q4" value="width"> width </label><li>	
+			</ul>
+		</div>
+
+		<!-- Ввод числа -->
+		<div class="question-block">
+			<h2> 5. 20+20 </h2>
+			<input type="number" class="word" name="q5" value="">
+		</div>
+
+		<div class="question-block">
+			<h2> 6. 15+15 </h2>
+			<input type="number" class="word" name="q6" value="">
+		</div>
+
+		<!-- Ввод текста -->
+		<div class="question-block">
+			<h2> 7. Какое свойство атрибута a определяет URL-адрес, на который будет перенаправление при клике? </h2>
+			<input type="text" class="word" name="q7">
+		</div>
+
+		<div class="question-block">
+			<h2> 8. HTML-тэг, позволяющий воспроизводить аудиозаписи – это: </h2>
+			<input type="text" class="word" name="q8">
+		</div>
+
+		<button class="button-check" type="submit"> Проверка </button>
+	</form>
+</body>
+</html>

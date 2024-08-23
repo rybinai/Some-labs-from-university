@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title> Анкета </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form id="form">
+        <h1> Анкета </h1>
+
+        <div class="input-block">
+            <label for="surname"> Введите вашу фамилию </label>
+            <input type="text" id="surname" name="Фамилия">
+            <div class="error"></div>
+        </div>
+
+        <div class="input-block">
+            <label for="username"> Введите ваше имя </label>
+            <input type="text" id="username" name="Имя">
+            <div class="error"></div>
+        </div>
+
+        <div class="input-block">
+            <label for="patronymic"> Введите ваше отчество </label>
+            <input type="text" id="patronymic" name="Отчество">
+            <div class="error"></div>
+        </div>
+
+        <div class="input-block">
+            <label for="email"> Введите ваш E-mail </label>
+            <input type="text" id="email" name="Почта">
+            <div class="error"></div>
+        </div>
+
+        <div class="input-block">
+            <label for="hobby-select"> Хобби </label>
+            <select name="Хобби" id="hobby-select">
+                <option> Спорт </option>
+                <option> Музыка </option>
+                <option> Видеоигры </option>
+                <option value="Другое"> Другое </option>
+            </select>
+            <label>
+                <input type="text" id="hobby-select-other" name="Другое">
+            </label>
+        </div>
+
+        <div class="input-block" id="input-block-phone">
+            <label for="phone"> Введите номер телефона </label>
+            <input type="tel" name="Номер телефона" id="phone">
+        </div>
+
+        <button id="add-phone" type="button">+</button>
+
+        <button type="submit"> Отправить </button>
+    </form>
+    <div class="overlay">
+        <div class="notification" id="notification"></div>
+        <div class="close-button">
+        </div>
+    </div>
+</body>
+</html>

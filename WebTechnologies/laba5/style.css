@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-decoration: none;
+    font-family: Arial;
+    background: linear-gradient(to right bottom, rgba(43, 44, 78, .5), rgba(104, 22, 96, .5));
+}
+#form {
+    width: 550px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+    border: 4px solid black;
+}
+#form h1 {
+    text-align: center;
+}
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+#form button:hover {
+    background-color: lightgray;
+}
+.input-block {
+    display: flex;
+    flex-direction: column;
+}
+.input-block input, select {
+    border: 2px solid black;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+}
+#hobby-select-other {
+    display: none;
+}
+.input-block.success input {
+    border-color: #09c372;
+}
+.input-block.error input {
+    border-color: #ff3860;
+}
+.input-block .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+.notification {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 15vh auto 0 auto;
+    width: 500px;
+    height: 700px;
+}
+.notification h1 {
+    margin-bottom: 20px;
+}
+.show {
+    display: block;
+}
+.close-button {
+    top: 0;
+    right: 0;
+    margin: 50px 50px 0 0;
+    display: flex;
+    z-index: 2;
+    position: absolute;
+    align-items: center;
+    width: 30px;
+    height: 15px;
+}
+.close-button::before, .close-button::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: black;
+}
+.close-button::before {
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+}
+.close-button::after {
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+}

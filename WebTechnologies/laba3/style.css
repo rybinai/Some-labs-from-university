@@ -1,0 +1,145 @@
+/* CSS-file */	
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.block-medium {
+	margin: 10px;
+	padding: 10px;
+	border: 4px solid;
+	display: flex;
+}
+.block-in-meduim {
+	padding: 10px;
+	margin: 10px;
+	border: 0px;
+	text-align: center;
+	width: 90%;
+	word-break: break-all;
+}
+.block-link {
+	margin: 10px;
+	padding: 10px;
+	border: 4px solid ;
+	display: flex;
+}
+.blocki {
+	margin: 5px;
+	padding: 15px 30px;
+	text-align: center;
+	border: 2px solid;
+	border-radius: 20px;
+}
+.block-big {
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid ;
+}
+.small-block-in-big {
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid ;
+}
+.small-block-in-big-1 {
+	margin: 20px;
+	padding: 20px;
+	border: 0px;
+	flex-direction: column;
+}
+.block-small {
+	margin: 10px;
+	padding: 10px;
+	border: 4px solid ;
+	display: flex;
+	flex-direction: column;
+}
+.right {
+	text-align: right;
+}
+.block-links {
+	margin: auto;
+	padding: 10px;
+	display: flex;
+}
+.links {
+	margin: 10px;
+	padding: 10px;
+	border: 2px solid ;
+	display: flex;
+	flex-direction: column;
+	width: 10%;
+	word-break: break-all;
+}
+.links-in {
+	padding: 0px 10px;
+	word-break: break-all;
+}
+.list {
+	margin: 10px;
+	padding: 10px;
+	border: 2px solid ;
+	border: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.list-in {
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid ;
+	display: inline-block;
+}
+.small-1 {
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid;
+	word-break: break-all;
+}
+.small-small {
+	margin: 10px;
+	padding: 10px;
+	max-height: 5%;
+	max-width: 32%;
+	border: 1px solid ;
+	float: right;
+	word-break: break-all;
+}
+.pic-1 {
+	float: left;
+	width: 150px;
+	height: 150px;
+	min-height: 150px;
+	min-width: 150px;
+	margin: 20px;
+}
+.pic-2-1 {
+	float: left;
+	width: 150px;
+	height: 150px;
+	min-height: 150px;
+	min-width: 150px;
+	margin: 15px;
+}
+.pic-2-2 {
+	float: left;
+	width: 150px;
+	height: 150px;
+	min-height: 150px;
+	min-width: 150px;
+	margin: 15px;
+}
+.pic-2-3 {
+	float: left;
+	width: 150px;
+	height: 150px;
+	min-height: 150px;
+	min-width: 150px;
+	margin: 15px;
+}
+.pic-3-1 {
+	float: left;
+	width: 100px;
+	height: 100px;
+	min-height: 100px;
+	min-width: 100px;
+	margin: 10px;
+}

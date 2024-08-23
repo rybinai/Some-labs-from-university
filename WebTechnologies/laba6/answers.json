@@ -1,0 +1,10 @@
+{
+  "question1": "HyperTextMarkupLanguage",
+  "question2": "h2",
+  "question3": ["div", "ul"],
+  "question4": ["src", "alt"],
+  "question5": 40,
+  "question6": 30,
+  "question7": "href",
+  "question8": "audio"
+}
