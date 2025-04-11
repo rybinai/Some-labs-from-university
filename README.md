@@ -1,3 +1,3 @@
-# Some-labs-2nd-year
+# Some-labs-from-university
 
-Some laboratory works of 1st and 2nd semesters on programming, 2nd year, PetrSU.
+Some laboratory works of 1, 2, 3 courses of autumn and spring semesters on programming, PetrSU.
